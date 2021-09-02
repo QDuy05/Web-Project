@@ -24,6 +24,7 @@ người dùng
 M.Tuấn 
 + trang home
 + trang thông tin cơ bản vê website
++ trang wishlist
 
 A.Duy
 + trang thông tin sản phẩm
