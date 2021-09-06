@@ -35,4 +35,5 @@ Q.duy
 	  đăng nhập
 + contact (trang liên hệ)
 
-P.tuyên(không tương tác)
+P.tuyên
++ Tinh chỉnh, sửa đổi các trang
