@@ -25,6 +25,11 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./jquery/index.js"></script>
     </head>
     <body>
         <div class="body-wrapper">
@@ -179,6 +184,9 @@
                     </div>
                 </div>
             </header>
+
+
+
             <div class="breadcrumb-area">
                 <div class="container">
                     <div class="breadcrumb-content">
@@ -199,11 +207,13 @@
                                     <div class="row">
                                         <div class="col-md-12 col-12 mb-20">
                                             <label>Email Address*</label>
-                                            <input class="mb-0" type="email" placeholder="Email Address">
+                                            <input class="mb-0" type="email" id="email" placeholder="Email Address">
+                                            <p class="emailError"></p>
                                         </div>
                                         <div class="col-12 mb-20">
                                             <label>Password</label>
-                                            <input class="mb-0" type="password" placeholder="Password">
+                                            <input class="mb-0" type="password" id="password" placeholder="Password">
+                                            <p class="passError"></p>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="check-box d-inline-block ml-0 ml-md-2 mt-10">
@@ -228,23 +238,27 @@
                                     <div class="row">
                                         <div class="col-md-6 col-12 mb-20">
                                             <label>First Name</label>
-                                            <input class="mb-0" type="text" placeholder="First Name">
+                                            <input class="mb-0" type="text" id="firstname" placeholder="First Name">
+                                            
                                         </div>
                                         <div class="col-md-6 col-12 mb-20">
                                             <label>Last Name</label>
-                                            <input class="mb-0" type="text" placeholder="Last Name">
+                                            <input class="mb-0" type="text" id="lastname" placeholder="Last Name">
                                         </div>
                                         <div class="col-md-12 mb-20">
                                             <label>Email Address*</label>
-                                            <input class="mb-0" type="email" placeholder="Email Address">
+                                            <input class="mb-0" type="email" id="emailre" placeholder="Email Address">
+                                            <p class="emailErrorre"></p>
                                         </div>
                                         <div class="col-md-6 mb-20">
                                             <label>Password</label>
-                                            <input class="mb-0" type="password" placeholder="Password">
+                                            <input class="mb-0" type="password" id="passwordre" placeholder="Password">
+                                            <p class="passErrorre"></p>
                                         </div>
                                         <div class="col-md-6 mb-20">
                                             <label>Confirm Password</label>
-                                            <input class="mb-0" type="password" placeholder="Confirm Password">
+                                            <input class="mb-0" type="password" id="confirmpass" placeholder="Confirm Password">
+                                            <p class="passErrorco"></p>
                                         </div>
                                         <div class="col-12">
                                             <button class="register-button mt-0">Register</button>
