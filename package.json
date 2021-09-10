@@ -1,10 +1,4 @@
-heroku login
-"scripts": {
-    "start" : "node app.js"
- }
-const port = process.env.PORT || 4000;
-app.listen(port);
-heroku create
-git push heroku master
-heroku open
-heroku logs --tail
+{
+  "name": "Web-Project",
+  "version": "1.0.1",
+  "dependencies": { 
